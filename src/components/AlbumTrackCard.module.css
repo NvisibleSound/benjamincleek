@@ -1,0 +1,111 @@
+.trackCard {
+ padding: 1em;
+ 
+}
+
+.artist {
+  font-size: 30px;
+}
+
+.formContainer{
+  border-style: solid;
+  border-color: darkgrey;
+  padding: 2vw;
+}
+
+.message {
+  background-color: lightblue;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10vw;
+  width: 10vw;
+  /* color: grey; */
+}
+
+.fileName {
+  display: flex;
+  font-size: 11px;
+  margin-top: 1vh;
+  width:30vw;
+
+}
+
+.fileSize {
+  display: flex;
+  font-size: 11px;
+  margin-top: 1vh;
+  margin-left: 3vw;
+  width:20vw;
+}
+
+.duration {
+  display: flex;
+  font-size: 11px;
+  margin-top: 1vh;
+  width:20vw;
+}
+
+.trackDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 40vw;
+  margin-left:20px;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  font-size: 9px
+}
+
+.key {
+  display: flex;
+  flex-direction: row;
+  font-size: 9px
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row1 {
+  width:50vw;
+}
+.column1 {
+  display: flex;
+  flex-direction: column;
+  padding: 1vh;
+  width: 35vw;
+  border-right-style: solid;
+  border-color: rgb(234, 234, 234);
+  padding-right: 3vw;
+  margin-left: 1vw;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  padding: .5rem;
+}
+
+
+.buttons {
+  flex-direction: row;
+  margin-left: 60vw;
+}

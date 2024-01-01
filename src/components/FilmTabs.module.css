@@ -1,0 +1,87 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #030303;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh;
+  align-items:center;
+  justify-content: center;
+}
+
+.bloc-tabs {
+  display: flex;
+  width:100%;
+  justify-content: center;
+  color: white;
+  margin-bottom:5vh
+}
+
+.tabs {
+  text-align: center;
+  width: 10%;
+  background: rgba(0, 0, 0, 0.075);
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+  color: white;
+  padding-bottom: 5vh
+
+}
+.tabs:not(:last-child){
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs  {
+  background: rgb(30, 30, 30);
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border-right-style: solid;
+}
+
+.active-tabs::before {
+  /* content: "";
+  display: block;
+  position: absolute; */
+}
+
+button {
+  color: white
+}
+
+.content-tabs {
+  flex-grow : 1;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+
+.content hr {
+
+}
+
+.content p {
+
+}
+
+.active-content {
+  display: block;
+  text-align: left;
+}
+
+

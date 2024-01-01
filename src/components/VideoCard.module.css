@@ -1,0 +1,11 @@
+.VideoUploader {
+}
+
+.header {
+}
+.dropzone {
+  border-style: solid;
+  border-color: grey;
+  border-radius: 50px;
+  width: 30vw;
+}

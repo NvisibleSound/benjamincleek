@@ -1,0 +1,85 @@
+.TrackPage {
+ 
+}
+.trackForm {
+  
+}
+.artist {
+  font-size: 30px;
+  color: black;
+}
+
+.formContainer{
+  border-style: solid;
+  border-color: darkgrey;
+  padding: 2vw;
+}
+
+.TrackUploader {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dropzone{
+  width: 50vw;
+  height: 18vh;
+  border-style: solid;
+  border-color: darkgrey;
+  border-radius: 20px;
+  padding: 2em
+}
+
+.fileInput{
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  padding: 2em
+}
+
+.uploadIcon {
+  font-size: 30px;
+}
+
+.message {
+  background-color: lightblue;
+  color: #333;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row1 {
+  width:50vw;
+}
+.column1 {
+  display: flex;
+  flex-direction: column;
+  color:Black;
+  background-color: rgb(255, 255, 255);
+  padding: 1vh;
+  width: 35vw;
+  border-right-style: solid;
+  border-color: rgb(234, 234, 234);
+  padding-right: 3vw;
+  margin-left: 1vw;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  color:Black;
+  background-color: rgb(255, 255, 255);
+  padding: .5rem;
+}
+
+
+.buttons {
+  flex-direction: row;
+  margin-left: 60vw;
+}

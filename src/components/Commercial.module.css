@@ -1,0 +1,57 @@
+.commercial {
+
+}
+
+.header {
+  color: rgb(113, 113, 113);
+  font-size: 1.5em;
+  height:5vh;
+  width: 50vw;
+}
+
+.videoThumbs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  width: 80vw;
+}
+
+.videoCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  width: 25vw;
+  border-color: rgb(41, 41, 41);
+  margin: .5vh;
+  padding: 1vh;
+}
+
+.videoCard:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+  background-color: rgb(72, 72, 72);
+
+}
+
+.videoImg {
+  width: 20vw;
+  height: auto;
+}
+
+.videoImg:hover {
+  /* width: 27vw; */
+}
+.playButton{
+  font-size: 60px;
+  position: absolute;
+  color: transparent;
+  transition: transform 0.3s ease-in-out;
+  
+
+}
+
+.videoCard:hover .playButton {
+  color: rgb(255, 255, 255);
+  transform: scale(1.4);
+}

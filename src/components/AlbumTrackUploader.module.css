@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  margin-top: 4vh;
+  margin-left: 20vw;
+  border-bottom: solid;
+  padding-left: 10%;
+}
+
+.uploader {
+  width: 40vw;
+}
+/* 
+.uploader:hover {
+  color: #000000;
+} */
+
+.uploadIcon {
+  font-size: 1.5em;
+  margin-left: .5em;
+}
+
+.uploadIcon:hover {
+  color:rgb(21, 21, 21);
+}
+
+.uploadText:hover {
+  color:rgb(21, 21, 21);
+}

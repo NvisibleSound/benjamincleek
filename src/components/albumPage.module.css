@@ -1,0 +1,173 @@
+.album {
+  position: absolute;
+  margin-left: 15vh;
+  margin-bottom: 20vh;
+  color: rgb(240, 240, 240);
+
+}
+
+
+.header {
+  display:flex;
+  flex-direction: column;
+}
+
+.tableHeader{
+  border-bottom: solid;
+  height: 10vh;
+}
+
+.column1 {
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+}
+
+.albumCard {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.customizeAlbumPhoto {
+  margin-left: 2vw;
+  border-style: solid;
+  border-color: rgb(119, 117, 117);
+  width: 20vw;
+  height: 20vw;  
+  object-fit: cover;
+}
+
+.by {
+  font-size:11px;
+  margin-right: .2vw;
+}
+
+.customizeArtistPic {
+  border-style: solid;
+  border-color: rgb(119, 117, 117);
+  border-radius: 50%;
+  overflow: hidden;
+  width: 3vw;
+  height: 3vw;
+  margin-right: 1em;
+}
+
+
+
+.links {
+  margin-left: 1vw;
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+}
+.linerNotes {
+  margin-right: 2vw;
+  font-size: 20px;
+  color: lightgrey;
+}
+.photos { 
+  margin-right: 2vw;
+  font-size: 20px;
+  color: lightgrey;
+}
+.donate { 
+  font-size: 20px;
+  color: lightgrey;
+}
+
+.live {
+  margin-left: 2vw;
+  font-size: 20px;
+  text-decoration: none;
+  color: red;
+}
+
+.sheetMusic { 
+  margin-right: 4vw;
+  font-size: 20px;
+  color: lightgrey;
+}
+
+.description{
+  margin-right: 3vw;
+  width: 38vw;
+  height: 30vh;
+  border-style: solid;
+  border-color: rgb(238, 238, 238);
+  padding: 1em;
+  overflow: scroll;
+}
+
+.tracks {
+  position: relative;
+}
+
+.footer {
+  align-items: center;
+
+}
+.albumInfo {
+  margin-left: 5vw; ;
+}
+.albumName {
+  font-size: 40px;
+  margin-bottom: 2vh;
+}
+
+.info {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.artistName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;  
+}
+
+.releasedate {
+
+}
+
+.runtime {
+}
+
+
+.Playbar {
+  display: flex;
+  width: 60vw;
+  margin-top: 8vh;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+}
+
+.AudioPlayer {
+  width: 100%;
+  color: black;
+}
+
+.description {
+  font-size: calc(6px + 1vmin);
+}
+
+
+.rhap_container, .rhap_container *:focus {
+}
+
+.rhap_container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+  width: 100%;
+  margin-left: -1vw !important;
+  background-color:rgba(0, 0, 0, 0) !important;
+  box-shadow: 0 0 3px 0 rgb(0 0 0 / 20%);
+  height: 13vh;
+  border-style: solid;
+  border-color: grey;
+}

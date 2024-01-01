@@ -1,0 +1,8 @@
+.body {
+  margin-top: 4vh;
+  height: 42vh;
+  width: 30vw;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  overflow-y: auto; 
+}

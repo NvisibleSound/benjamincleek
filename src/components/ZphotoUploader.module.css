@@ -1,0 +1,51 @@
+.container {
+  color: white;
+}
+
+.dropzone {
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  height: 10vw;
+  overflow: hidden;
+}
+
+.selectedImage {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.selectedImage img {
+  object-fit: cover;
+}
+
+.add {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(185, 185, 185);
+}
+
+
+.zphotoThumb {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+
+.zphotoThumb:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  background-color: rgb(72, 72, 72);
+}

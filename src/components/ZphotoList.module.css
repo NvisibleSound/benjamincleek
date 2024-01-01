@@ -1,0 +1,42 @@
+.zphotoList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-bottom:20vh;
+  width: 80vw;
+  align-items: center; 
+  color: rgb(132, 132, 132);
+  text-align: none;
+  border-style: solid;
+}
+
+.zphoto{
+  display: flex;
+  border-style: solid;
+  border-color: rgb(185, 185, 185);
+  justify-content: space-between;
+  padding-right:15vw;
+  align-items: left;
+}
+
+
+.ZphotoUploader {
+}
+
+.photoCard {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 300px;
+  border-style: solid;
+  border-color: rgb(41, 41, 41);
+  margin-bottom: 1vh;
+  padding-bottom:1vh;
+
+}
+
+
+.photoCard:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  background-color: rgb(72, 72, 72);
+}

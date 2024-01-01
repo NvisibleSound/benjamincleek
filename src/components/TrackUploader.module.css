@@ -1,0 +1,24 @@
+.TrackUploader {
+  width: 50vw; 
+}
+
+.dropzone{
+  width: 30vw;
+  height: 18vh;
+  border-style: solid;
+  border-color: darkgrey;
+  border-radius: 20px;
+  padding: 2em
+}
+
+.uploadIcon {
+  font-size: 30px;
+}
+
+.message {
+  background-color: lightblue;
+  color: #333;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 10px;
+}

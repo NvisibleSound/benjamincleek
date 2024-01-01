@@ -1,0 +1,18 @@
+.Collaborations {
+  display:flex;
+  flex-direction: row;
+  padding-top: 20vh;
+  color: white;
+}
+
+.header {
+  color: rgb(113, 113, 113);
+  font-size: 1.5em;
+  height:5vh;
+  width: 50vw;
+  margin-top:2vh;
+  padding-top:.5vh;
+  
+}
+
+

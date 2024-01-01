@@ -1,0 +1,169 @@
+.label {
+  margin-left:1vw;
+}
+
+.card1 {
+  border-style: solid;
+  border-color:lightgrey;
+  width:70vw;
+  border-radius: 5px;
+  margin-bottom:4vh;
+  margin-left: 15vw;
+  margin-top: 5vh;
+}
+
+.card2 {
+  border-style: solid;
+  border-color:lightgrey;
+  width:70vw;
+  border-radius: 5px;
+  margin-bottom:20vh;
+  margin-left: 15vw;
+  margin-top: 5vh;
+}
+
+.header {
+  border-bottom: solid;
+  border-color: lightgrey;
+  background-color: rgb(246, 246, 246);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 8vh;
+  align-items: center;
+  padding-left: 3vw;
+  font-size: 1.1em;
+}
+
+  .buttons {
+    justify-content: space-evenly;
+    margin-right: 3vw;
+  }
+
+.body {
+padding:2em;  
+border-style: solid;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+}
+
+  .column1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    width: 25vw;
+  }
+
+  .column3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+    width: 25vw;
+  }
+
+.row2 {
+  display: flex;
+  flex-direction: column;
+  width: 47vw;
+  margin-top: 4vh;
+}
+
+.row3 {
+  border-color: lightgrey;
+  margin-top:5vh;
+  width: 60vw;
+  padding-top: 2vh;
+}
+
+
+.downloadOptions {
+  display: flex;
+  flex-direction: row;
+  padding: 2em;
+}
+
+.albumVersion {
+  margin-top: 1em;
+}
+.privacy {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+  margin-left:5vw
+}
+
+.row4 {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+.row5 {
+  padding: 1em;
+  margin-left: 3vw;  
+}
+
+.row6 {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-color: rgb(240, 240, 240);
+}
+
+.column4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3vw;
+  width: 40vw;
+}
+
+.column5 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3vw;
+  width: 40vw;
+}
+
+.column7 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3vw;
+  width: 40vw;
+}
+.column8 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4vw;
+  width: 40vw;
+}
+
+.row7 {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  margin-left: 4vw;
+  width: 40vw;
+  justify-content: space-between;
+}
+
+.radioButton {
+  display: flex;
+  flex-direction: row;
+  padding:1em;
+}
+
+.tracks {
+  margin-left: 10vw;
+  margin-bottom: 30vh;
+}

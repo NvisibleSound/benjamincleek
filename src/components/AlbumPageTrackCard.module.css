@@ -1,0 +1,62 @@
+.AlbumPageTrackCard {
+  display: flex;
+  flex-direction: row;
+  border-bottom-style: solid;
+  border-color: grey;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  padding-right: 5vh;
+}
+  
+.AlbumPageTrackCard:hover {
+  background-color: rgb(209, 189, 215);
+}
+  
+  .info {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    padding-left: 5vw;
+    margin-left:
+  }
+
+  .trackNumber{
+    margin-right:6vw;
+  }
+  .title {
+    font-size: 17px;
+    width: 25vw;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .artist {
+    font-size: 14px;
+    text-decoration: none;
+    color: grey
+  }
+  .album {
+    margin-left: 15vw;
+    text-decoration: none;
+    color: grey;
+    width: 35vw;
+  }
+
+  .plays{ 
+    display: flex;
+    width: 5vw;
+    text-align: right;
+    align-items: center;
+    font-size: 12px
+  }
+
+  .formattedTime{
+    width: 5vw;
+    font-size: 12px
+  }
+
+  .selected {
+    background-color: rgb(65, 65, 65)
+  }

@@ -1,0 +1,88 @@
+.Music {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  color: white;
+  /* background-color: rgb(218, 191, 42); */
+}
+
+.header {
+  color: rgb(113, 113, 113);
+  font-size: 1.5em;
+}
+
+.albums {
+  background-color: rgb(19, 17, 15);
+  margin-top: 2vh;
+  margin: 8em;
+  padding: 0 3vh; 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.albumThumb {
+  display:flex;
+  flex-direction: column;
+  background-color: rgb(19, 17, 15);
+  margin-top: 2vh;
+  margin-left: 3vw;
+  padding: 0 3vh; /* Adjusted padding */
+}
+
+
+.row1 {
+  display:flex;
+  flex-direction: row;
+
+}
+
+
+.customizeAlbumPhoto {
+  border-style: solid;
+  border-color: rgb(119, 117, 117);
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.albumPhoto {
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  margin: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+
+.albumPhoto:hover {
+  /* transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  background-color: rgb(72, 72, 72); */
+}
+
+
+.player {
+}
+
+.fakeNewsCard {
+  width:20vw;
+  height: 20vw;
+}
+.fakeNewsCard:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  background-color: rgb(72, 72, 72);
+}
+
+.fakeNewsCard img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}

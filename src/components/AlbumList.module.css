@@ -1,0 +1,26 @@
+.albumList {
+  margin-left: 15vw;
+  margin-bottom:20vh;
+  align-items: center; 
+  color:white;
+}
+
+.album{
+  display: flex;
+  width:70vw;
+  border-bottom-style: solid;
+  border-color: rgb(185, 185, 185);
+  background-color: rgb(98, 98, 98);
+  justify-content: space-between;
+  padding-right:15vw;
+}
+
+.albumPhoto{
+  width: 5vw;
+  height: 5vw;
+  border-style: solid;
+}
+
+.AlbumListTrack{
+  width: 60vw;
+}

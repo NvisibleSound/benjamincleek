@@ -1,0 +1,98 @@
+.label {
+  margin-left:1vw;
+}
+
+.card {
+  border-style: solid;
+  border-color:rgb(247, 247, 247);
+  background-color: white;
+  border-radius: 5px;
+  width: 85vw;
+  margin-bottom:40vh;
+  margin-left: 11vw;
+  margin-top:5vh;
+  padding: 1%;
+}
+
+.header {
+  border-bottom: solid;
+  border-color: lightgrey;
+  background-color: rgb(246, 246, 246);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 8vh;
+  align-items: center;
+  padding-left: 3vw;
+  font-size: 1.1em;
+}
+
+.customizeAlbumPhoto{
+  width:20vw;
+  height: 20vw;
+}
+
+.albumInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 4vw;
+  margin-top:2vh;
+  width: 30vw;
+  padding: 2em;
+  border-style: solid;
+  border-color: rgb(236, 236, 236);
+}
+
+.albumName{
+  height: 6vh;
+  width: 20vw;
+  margin-top: 4vh;
+  border-color: rgb(240, 240, 240);
+  padding: .6em;
+  font-size: 3vh;
+}
+
+.description{
+  height: 6vh;
+  width: 25vw;
+  border-color: rgb(240, 240, 240);
+  margin-bottom: 5vh;
+}
+
+.genres {
+  height: 6vh;
+  width: 25vw;
+  margin-top:2vh;
+  border-color: rgb(240, 240, 240);
+}
+
+.tags{
+
+}
+
+.buttons {
+  justify-content: space-evenly;
+  margin-right: 3vw;
+}
+
+.body {
+padding:2em;  
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+}
+
+  .column1 {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+  }
+
+  
+
+
+
+

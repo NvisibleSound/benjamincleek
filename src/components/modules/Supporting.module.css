@@ -1,0 +1,54 @@
+.supporting {
+  width: 25vw;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: calc(30px - 1vmin);;
+  margin-top: 1vh;
+  align-items: center;
+  width: 25vw;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: center;
+}
+
+.totalAmount {
+  text-align: left;
+}
+
+
+.profileList{
+  margin-top: 4vh;
+  height: 42vh;
+  border-style: solid;
+  border-color: rgb(238, 238, 238);
+  overflow-y: auto;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.circleImage {
+  border-radius: 100%;
+  width: 3vw;
+  height: 3vw;
+  overflow: hidden;
+}
+
+
+  .profilePicWrapper {
+/*     
+      width: 3vw;
+      height: 3vw;     */
+  }

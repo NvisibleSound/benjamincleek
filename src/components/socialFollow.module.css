@@ -1,0 +1,25 @@
+.social {
+  padding-left: 10vw;
+  padding-bottom: 3vh;
+}  
+  .icons {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+.youtube {
+  background-color: rgb(198, 198, 198);
+  color: #FF0000;
+  margin-right: 5vw;
+  margin-bottom: 1vh;
+  height: 8.5vh;
+  border-radius: 2vh;
+}
+
+.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+  border-radius: 2vh;
+  color: rgb(198, 198, 198);
+  height: 8.5vh;
+}

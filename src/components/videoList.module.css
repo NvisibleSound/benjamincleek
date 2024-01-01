@@ -1,0 +1,19 @@
+.videos {
+  background-color: white;
+  padding-top: 2vh;
+}
+
+.videoName{
+  text-align: left;
+}
+
+.filters {
+  display:flex;
+  flex-direction: row;
+}
+.dropdowns {
+  display: flex;
+  flex-direction:row;
+  padding: 2em;
+  margin-left: 20vw;
+}

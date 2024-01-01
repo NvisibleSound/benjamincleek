@@ -1,0 +1,84 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  overflow-y: scroll;
+  color: rgb(160, 160, 160);
+  margin-bottom: 11vh;
+  margin-left: 10vw;
+  margin-top: 5vh;
+}
+
+.searchContainer {
+  color: black;
+  height: 30px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.searchIcon {
+  font-size: 24px;
+  margin-right: 5px;
+  color: rgb(160, 160, 160);
+
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  margin-top: 2vh;
+  padding-bottom: 2vh;
+  border-bottom-style: solid;
+  border-color: rgb(245, 245, 245);
+}
+
+.artist {
+  display: flex;
+  flex-direction: row;
+}
+
+.artistname{
+  margin-bottom: 1em;
+}
+
+.albums {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10vh;
+}
+
+.albumname {
+  margin-bottom: 1em;
+}
+
+.artistCard {
+  flex-direction: row;
+  height: 16vw;
+  width: 13vw;
+  margin: 1vw;
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color:lightgrey;
+  border-radius: 6px;
+  padding:1em;
+}
+
+.albumCard {
+  flex-direction: row;
+  height: 16vw;
+  width: 13vw;
+  margin: 1vw;
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color:lightgrey;
+  border-radius: 6px;
+  padding:1em;
+}
+
+

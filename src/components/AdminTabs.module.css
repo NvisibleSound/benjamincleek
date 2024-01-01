@@ -1,0 +1,83 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #030303;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh;
+  align-items:center;
+  justify-content: center;
+}
+
+.bloc-tabs {
+  display: flex;
+  width:100%;
+  margin-left: 45vw;
+  color: white
+}
+
+.tabs {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.075);
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+  color: white;
+}
+.tabs:not(:last-child){
+}
+
+.active-tabs  {
+  background: rgb(30, 30, 30);
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border-right-style: solid;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+
+}
+
+/* conflicts with admin css, changed to module css ad seems to have fixed */
+button {
+  color: white
+}
+
+.content-tabs {
+  flex-grow : 1;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #000000;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+  text-align: left;
+}
+
+

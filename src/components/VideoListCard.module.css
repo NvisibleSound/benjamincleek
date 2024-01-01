@@ -1,0 +1,56 @@
+.VideoListCard {
+  display: flex;
+  flex-direction: row;
+  border-bottom-style: solid;
+  border-color:rgb(237, 237, 237);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: white;
+}
+  
+.VideoListCard:hover {
+  background-color: rgb(209, 189, 215);
+}
+  
+  .info {
+    display: flex;
+    flex-direction: row;
+    color: rgb(142, 142, 142);
+    width: 50vw;
+    padding-left: 5vw;
+    padding: 1vw;
+  }
+
+  .trackNumber{
+    margin-right:6vw;
+  }
+
+  .title {
+    font-size: 17px;
+  }
+
+  .artist {
+    font-size: 14px;
+    text-decoration: none;
+    color: grey
+  }
+  .album {
+    margin-left: 15vw;
+    text-decoration: none;
+    color: grey;
+    width: 35vw;
+  }
+
+  .plays{ 
+    display: flex;
+    margin-left: 9vw;
+    text-align: center;
+    align-items: center;
+    font-size: 12px
+  }
+
+  .formattedTime{
+    margin-left: 15vw;
+    font-size: 12px
+  }
+

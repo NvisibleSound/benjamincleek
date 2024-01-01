@@ -1,0 +1,310 @@
+.uploadPage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  color:rgb(197, 197, 197);
+  background-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-color: darkgrey;
+  padding: 2vw;
+
+}
+.uploadForm {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  text-align: left;
+  color:Black;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: darkgrey;
+  padding: 1vw;
+  height: 100vh;
+  margin-left: 15vw;
+  margin-top: 7vh;
+}
+.formWrapper {
+  border-style: solid;
+  border-color: lightgreen;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+.formWrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  color:Black;
+  background-color: rgb(255, 255, 255);
+  padding: 1vh;
+  height: 50vh;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  color:Black;
+  background-color: rgb(255, 255, 255);
+  padding: .5rem;
+}
+.buttons {
+  margin-top: 5vh;
+  margin-left: 25vw;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
+  border-bottom-style: solid;
+  border-width: 1px;
+  padding-bottom: 3vh;
+}
+
+.icon{
+  font-size: calc(4em + .01vmax);
+  margin-right: 20px;
+  color:rgb(178, 178, 178);
+}
+
+
+.upload {
+  display: flex;
+  flex-direction: row;
+	border-style: solid;
+  border-color: rgb(118, 118, 118);
+  border-width: 1px;
+  background-color: white;
+  height: 60rem;
+}
+
+/* .column1 {
+  display: flex;
+  flex-direction: column;
+  border-color: grey;
+  border-right-style: solid;
+  padding-right: 2vw;
+  background-color: lightyellow;
+  padding-bottom: 1vh;
+  height: 70vh;
+} */
+.uploadForm {
+  font-size: .6em;
+  display: flex;
+  flex-direction: row;
+}
+  .chooseFile {
+    display: flex;
+    flex-direction: row;
+    margin-left: 6vw;
+    padding: 2vh;
+  }
+  .albumPhoto{
+    height: 20vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: bottom;
+    margin: 1vh;
+    margin-bottom: 3vh;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    align-items: center;
+    color: rgb(219, 219, 219);    
+    background-color: rgb(161, 161, 161);  
+  }
+  .albumName {
+    margin-bottom: 1vh;
+    height: 5vh;
+    width: 20vw;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 244, 244);
+    margin-left: 10px;
+  }
+  .artist {
+    margin-bottom: 1vh;
+    height: 5vh;
+    width: 20vw;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 244, 244);
+    margin-left: 10px;    
+  }
+  .releaseDate {
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+    height: 5vh;
+    width: 8vw;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 244, 244);
+    margin-left: 10px;    
+  }
+  .aboutThisAlbum {
+    margin-bottom: 1vh;
+    height: 15vh;
+    width: 20vw;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 244, 244);
+    margin-left: 10px;    
+  }
+  .albumCredits {
+    margin-bottom: 1vh;
+    height: 5vh;
+    width: 20vw;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 244, 244);
+    margin-left: 10px;    
+  }
+  .tags {
+    margin-bottom: 1vh;
+    height: 5vh;
+    width: 20vw;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 244, 244);
+    margin-left: 10px;    
+  }
+  .albumUPC {
+    margin-bottom: 1vh;
+    height: 5vh;
+    width: 20vw;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 244, 244);
+    margin-left: 10px;    
+  }
+  .catalogNumber {
+    margin-bottom: 1vh;
+    max-height: 5vh;
+    width: 20vw;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 244, 244);
+    margin-left: 10px;    
+  }
+
+      .submit {
+        width: 10vw;
+        color: rgb(0, 0, 0);
+        background-color: lightblue;
+        position: relative;
+      }
+      .cancel {
+        width: 5vw;
+        color: rgb(0, 0, 0);
+        position: relative;
+        margin-left: 2vw;
+        margin-right: 15px;
+      }
+
+/* .column2 {
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+} */
+  .uploadMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .songName {
+    display: flex;
+    margin-bottom: 1vh;
+    max-height: 25px;
+    width: 20vw;
+    font-style: italic;
+    color: rgb(142, 142, 142);
+    background-color: black;
+  }
+  .uploadIcon {
+    display: flex;
+    flex-direction: column;
+    color:rgb(255, 255, 255);
+    padding-left: 5vw;
+  }
+  .trackUploadList {
+    display: flex; 
+  }
+
+.trackName {
+margin-right:20vw;
+}
+
+/* .uploadSong {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  color:Black;
+  border-style: solid;
+  margin: 5px;
+  height: 5vh;
+} */
+
+.uploader {
+  height:2vh;
+}
+
+.uploaderButtons {
+  height:4vh;
+}
+
+.progress {
+  width: 20vw;
+  color: grey;
+}
+.trackUploadList {
+display: flex;
+flex-direction: column;
+height: 5vh;
+}
+  .TrackInfoContainer {
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+    color: grey;
+    background-color: white;
+    justify-content: space-between;
+    font-size: .6em;
+  }
+
+  .onSubmitMonitor {
+    border-style: solid;
+    border-color: rgb(129, 129, 129);
+    background-color: white;
+    color: darkgray;
+    border-width: 1px;
+    padding: 3vw;
+    font-size: .6em;
+    width: 40vw;
+    height: 60vh;
+  }
+
+  .menuItems {
+    color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    text-decoration: none;
+  }

@@ -1,0 +1,21 @@
+.Playbar {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  padding-right:2vw;
+  bottom: 0;
+  background-color: rgb(245, 243, 243);
+}
+
+.AudioPlayer {
+  background-color: rgb(245, 243, 243);
+  color: rgb(239, 239, 239);
+}
+
+.description {
+  /* height: 4vh; */
+  font-size: calc(6px + 1vmin);
+}
+

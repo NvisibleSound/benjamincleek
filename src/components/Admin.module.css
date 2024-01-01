@@ -1,0 +1,88 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    border-bottom-style: solid;
+    border-color: rgb(245, 245, 245);
+  }
+
+  .header1 {
+    margin-left: 8vw;
+  }
+  .header2 {
+    margin-left: 10vw;
+  }
+  .header3 {
+    margin-left: 23vw;
+  }
+  .header4 {
+    margin-left: 30vw;
+  }
+  .header5 {
+    margin-left: 8vw;
+    font-size: 19px;
+
+  }
+  .header1 {
+    margin-left: 8vw;
+  }
+    ::-webkit-scrollbar {
+      width: 15px;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+    }
+  
+    .playlist-title {
+      font-size: 20px;
+      text-transform: capitalize;
+    }
+  
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 15px;
+      font-size: initial;
+    }
+  
+    table tr {
+      border-bottom: 1px solid #282828;
+    }
+  
+    table td {
+      padding: 10px 0;
+    }
+  
+    i {
+      cursor: pointer;
+    }
+  
+    button {
+      background-color: grey;
+      color: rgb(28, 28, 28);
+      padding: 12.5px 30px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 13px;
+      border-style: solid;
+      border-color: black;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: rgb(233, 233, 233);
+      color: rgb(28, 28, 28);
+      padding: 12.5px 30px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 13px;
+      border-style: solid;
+      border-color: black;
+      cursor: pointer;
+    }
+  
