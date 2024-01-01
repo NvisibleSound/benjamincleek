@@ -1,9 +1,13 @@
 .about {
   position: absolute;
-  margin-left: 15vh;
   margin-bottom: 20vh;
+  height: 15vw;
   color: rgb(240, 240, 240);
   z-index: 100;
+  background-color: rgb(32, 29, 29);
+  border-style: solid;
+  border-color: grey;
+  border-radius: 10px;
 }
 
 
@@ -45,9 +49,9 @@
 .description{
   margin-right: 3vw;
   width: 30vw;
-  height: 60vh;
   padding: 1em;
   z-index: 9999;
+  text-align: left;
 }
 
 .albumInfo {

@@ -107,31 +107,7 @@ const AlbumPage = ({ artistid, albumid }) => {
     return (
       <div className={styles.album}>
         <div className={styles.header}>
-          <div className={styles.Playbar}>
-            <AudioPlayer
-              ref={audioPlayerRef}
-              src={selectedTrack}
-              className={styles.rhap_container}
-              layout="horizontal-reverse"
-              autoPlay
-              customAdditionalControls={[]}
-              customVolumeControls={[]}
-              showJumpControls={false}            
-              header={`${currentTitle}`}
-              onEnded={() => {
-                console.log('onEnded');
-                handleNextTrack();
-              }}
-              onClickPrevious={() => {
-                console.log('onClickPrevious');
-                handleNextTrack();
-              }}
-              onClickNext={() => {
-                console.log('onClickNext - selectedTrack:', selectedTrack);
-                handleNextTrack();
-              }}
-            />
-          </div>
+          
         </div>
 
         <div className={styles.column1}>
@@ -183,18 +159,31 @@ const AlbumPage = ({ artistid, albumid }) => {
           ))}
         </div>
         <div className={styles.footer}>
-          {/* <div className={styles.genres}>
-            Genres:
-            {album.genres}
+        <div className={styles.Playbar}>
+            <AudioPlayer
+              ref={audioPlayerRef}
+              src={selectedTrack}
+              className={styles.rhap_container}
+              layout="horizontal-reverse"
+              autoPlay
+              customAdditionalControls={[]}
+              customVolumeControls={[]}
+              showJumpControls={false}            
+              header={`${currentTitle}`}
+              onEnded={() => {
+                console.log('onEnded');
+                handleNextTrack();
+              }}
+              onClickPrevious={() => {
+                console.log('onClickPrevious');
+                handleNextTrack();
+              }}
+              onClickNext={() => {
+                console.log('onClickNext - selectedTrack:', selectedTrack);
+                handleNextTrack();
+              }}
+            />
           </div>
-          <div className={styles.tags}>
-            tags:
-            {album.tags}
-          </div>
-          <div className={styles.credits}>
-            credits:
-            {album.credits}
-          </div> */}
         </div>
       </div>
     );

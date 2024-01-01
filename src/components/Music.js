@@ -3,15 +3,14 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import styles from './Music.module.css';
 import AlbumPage from './AlbumPage.js';
+import AlbumAbout from './AlbumAbout.js'; // Assuming you have an AlbumAbout component
 
 const Music = () => {
   const [albums, setAlbums] = useState([]);
   const [albumid, setAlbumid] = useState(null);
+  const [hoveredAlbum, setHoveredAlbum] = useState(null);
 
-
-  console.log("!!!!! ALBUMS", albums)
   useEffect(() => {
-    // Hardcode artistid to 1 for demonstration
     const artistid = 3;
 
     axios.get(`http://localhost:5000/albums/artistid/${artistid}`)
@@ -24,21 +23,42 @@ const Music = () => {
   }, []); 
 
   const handleAlbumClick = (albumid) => {
-    setAlbumid(albumid); // Set the selected album id in the state
+    setAlbumid(albumid);
+    setHoveredAlbum(null); // Clear hover state when an album is clicked
   };
 
-  console.log("MUSIC albumidd!!!!!!", albumid)
+  const handleAlbumHover = (albumid) => {
+    setHoveredAlbum(albumid);
+  };
 
+  const handleAlbumLeave = () => {
+    setHoveredAlbum(null);
+  };
 
   return (
     <div>
       <div className={styles.Music}>
         <div className={styles.albumThumb}>
           {albums.map(album => (
-            <div key={album.id} className={styles.row1} onClick={() => handleAlbumClick(album.id)}>
-              <div className={styles.albumPhoto}>
-                <img src={album.fileurl} alt={album.albumname} className={styles.customizeAlbumPhoto}/>
-              </div>
+            <div
+              key={album.id}
+              className={styles.albumContainer}
+              onMouseEnter={() => handleAlbumHover(album.id)}
+              onMouseLeave={handleAlbumLeave}
+              >
+              <img
+                src={album.fileurl}
+                alt={album.albumname}
+                className={`${styles.customizeAlbumPhoto} ${hoveredAlbum === album.id ? styles.hoveredAlbum : ''}`}
+                onClick={() => handleAlbumClick(album.id)}
+              />
+                                                  
+
+              {hoveredAlbum === album.id && (
+                <div className={styles.hoverContent}>
+                  <AlbumAbout albumid={album.id} />
+                </div>
+              )}
             </div>
           ))}
         </div>
@@ -46,15 +66,6 @@ const Music = () => {
           {albumid && <AlbumPage albumid={albumid} />}
         </div>
       </div>
-      {/* <div className={styles.albums}>
-        {albums.map(album => (
-          <div key={album.id} className={styles.row1} onClick={() => handleAlbumClick(album.id)}>
-            <div className={styles.fakeNewsCard}>
-              <img src={album.fileurl} alt={album.albumname} />
-            </div>
-          </div>
-        ))}
-      </div> */}
     </div>
   );
 };
