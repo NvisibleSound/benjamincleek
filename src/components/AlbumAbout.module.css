@@ -1,0 +1,98 @@
+.about {
+  position: absolute;
+  margin-left: 15vh;
+  margin-bottom: 20vh;
+  color: rgb(240, 240, 240);
+  z-index: 100;
+}
+
+
+.header {
+  display:flex;
+  flex-direction: column;
+}
+
+
+
+.column1 {
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+}
+
+.albumCard {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+.by {
+  font-size:11px;
+  margin-right: .2vw;
+}
+
+
+
+
+.links {
+  margin-left: 1vw;
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+}
+
+.description{
+  margin-right: 3vw;
+  width: 30vw;
+  height: 60vh;
+  padding: 1em;
+  z-index: 9999;
+}
+
+.albumInfo {
+  margin-left: 5vw; ;
+}
+.albumName {
+  font-size: 40px;
+  margin-bottom: 2vh;
+}
+
+.info {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.artistName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;  
+}
+
+.releasedate {
+
+}
+
+.runtime {
+}
+
+
+.Playbar {
+  display: flex;
+  width: 60vw;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+}
+
+.AudioPlayer {
+  color: black;
+}
+
+.description {
+
+}
+
