@@ -54,7 +54,10 @@ export default class AlbumsList extends Component {
 
   componentDidMount() {
     const artistid = 3;
-  
+    
+    // try this with digital ocean
+    // axios.get(`/albums/artistid/${artistid}`)
+
     axios.get(`http://localhost:5000/albums/artistid/${artistid}`)
       .then(response => {
         this.setState({ albums: response.data });

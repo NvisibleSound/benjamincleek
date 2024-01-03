@@ -18,10 +18,6 @@ import VideoList from './components/VideoList';
 import Zphoto from './components/Zphoto';
 import ZphotoList from './components/ZphotoList';
 
-
-
-
-
 function App() {
 
   const [selectedStation, setSelectedStation] = useState(null);
